@@ -1,0 +1,1089 @@
+html {
+    scroll-behavior: smooth; /* Плавная прокрутка */
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header {
+    position: relative;
+    text-align: center;
+    max-height: 100vh;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.header-text{
+    position: absolute;
+    z-index: 2;
+    padding: 20px;
+    color: wheat;
+    font-size: 6ch;
+    top: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+strong {
+    color: aqua;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-family: "Playfair Display", serif;
+}
+.background {
+    display: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.videoo {
+    position: absolute;
+    top: 30%;
+    transition: filter 0.3s ease;
+}
+.videoo:hover {
+    filter: brightness(1.2);
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0.8);
+    border: 5px   rgb(223, 238, 15);
+}
+
+.odd_text {
+    color: aqua;
+    font-size: 3.6ch;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2), 
+    0 0 25px rgba(255, 255, 255, 0.3), 
+    0 0 5px rgba(255, 255, 255, 0.2);
+    pointer-events: none;
+}
+.odd_logo {
+    position: absolute;
+    top: 2%;
+    left: 22%;
+    color: aqua;
+    font-size: 4.2ch;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2), 
+    0 0 25px rgba(255, 255, 255, 0.3), 
+    0 0 5px rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.odd_tel {
+    position: absolute;
+    top: 2.5%;
+    left: 59%;
+    color: white;
+    font-size: 2.8ch;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2), 
+    0 0 25px rgba(255, 255, 255, 0.3), 
+    0 0 5px rgba(255, 255, 255, 0.2);
+}
+.odd_tel:hover {
+    color: aqua;
+}
+.odd_tel:active {
+    color: black;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2), 
+    0 0 25px rgba(255, 255, 255, 0.3), 
+    0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+.button {
+    top: 2%;
+    left: 67%;
+    position:absolute;
+    padding: 10px 20px;
+    background-color: transparent; /* Цвет кнопки */
+    border: 1.8px solid aqua; /* Обводка кнопки */
+    border-radius: 20%; /* Круглая форма */
+    cursor: pointer; 
+    color: aqua; /* Цвет текста */
+    font-size: 16px; /* Размер шрифта */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button2 {
+    display: flex;
+    top: 110%;
+    left: 50%;
+    justify-content: center;
+    width: 50%; /* Ширина кнопки 100% */
+    padding: 15px 30px;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    background-color: aqua; /* Цвет кнопки */
+    border: 2px solid aqua; /* Обводка кнопки */
+    border-radius: 35px; /* Круглая форма */
+    cursor: pointer; 
+    color: rgb(0, 0, 0); /* Цвет текста */
+    font-size: 20px; /* Размер шрифта */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button2:hover {
+    background-color: aqua;
+    color: black;
+    box-shadow: 0 0 90px rgba(0, 123, 255, 0.4);
+
+}
+
+.button3 {
+    display: absolute;
+    top: 200%;
+    left: 50%;
+    justify-content: center;
+    width: 200px; /* Ширина кнопки 100% */
+    height: 200px;
+    padding: 15px 30px;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    background-color: rgba(21, 68, 80, 0.8); /* Цвет кнопки */
+    text-align: center; /* Обводка кнопки */
+    border-radius: 50%; /* Круглая форма */
+    border: transparent;
+    cursor: pointer; 
+    color: rgb(255, 255, 255); /* Цвет текста */
+    font-size: 16px; /* Размер шрифта */
+    transition: background-color 0.3s, color 0.1s;
+    outline: none;
+}
+.button3:hover {
+border: 1.4px solid aqua;
+color: aqua;
+}
+
+.button3 p {
+    position: absolute; /* Позволяет позиционировать элемент относительно родителя */
+    top: 66%;
+    left: 47%;
+    margin: 0; 
+    font-size: 28px;
+}
+
+.button:hover {
+    background-color: aqua;
+    color: black;
+    box-shadow: 0 0 90px rgba(0, 123, 255, 0.9);
+
+}
+
+.button1 {
+    top: 50%;
+    padding: 10px 20px;
+    background-color: transparent; /* Цвет кнопки */
+    border: 2px solid aqua; /* Обводка кнопки */
+    border-radius: 30px; /* Круглая форма */
+    cursor: pointer; 
+    color: aqua; /* Цвет текста */
+    font-size: 16px; /* Размер шрифта */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button1:hover {
+    background-color: aqua;
+    color: black;
+    box-shadow: 0 0 90px rgba(0, 123, 255, 0.9);
+}
+
+
+.form-container {
+    display: none; /* Скрываем форму по умолчанию */
+    position: fixed; /* Фиксированное позиционирование */
+    top: 50%; /* Центрируем по вертикали */
+    left: 50%; /* Центрируем по горизонтали */
+    width: 650px;
+    height: 550px;
+    transform: translate(-50%, -50%); /* Смещаем форму на половину её ширины и высоты */
+    background-color: rgba(17, 148, 180, 0.8); 
+    padding: 10px; /* Отступы внутри формы */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Тень */
+    border-radius: 16px; /* Скругление углов формы */
+    z-index: 100; /* Устанавливаем порядок отображения */
+}
+
+.overlay {
+    display: none; /* Скрываем затемнение по умолчанию */
+    position: fixed; /* Фиксированное позиционирование */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Затемнение */
+    z-index: 50; /* Устанавливаем порядок отображения */
+}
+
+.close-btn {
+    background-color: transparent; /* Цвет кнопки закрытия */
+    border: 9px solid aquamarine;
+    padding: 11px 21px;
+    color: rgb(253, 3, 3); /* Цвет текста */
+    border: none; /* Убираем границу */
+    border-radius: 30px; /* Скругление углов кнопки */
+    cursor: pointer; /* Указатель при наведении */
+    font-size: 16px;
+    margin-top: 1px; /* Отступ сверху */
+    margin-left: 15px;
+    box-shadow: 1px 1px 2px rgba(245, 4, 4, 0.5), 
+    0 0 25px rgba(245, 3, 3, 0.4), 
+    0 0 5px rgba(255, 255, 255, 0.4);;
+}
+
+.close-btn:hover {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: 2px solid aqua;
+    box-shadow: 0 0 90px rgba(0, 123, 255, 0.9);
+}
+
+.form_input {
+    box-sizing: border-box;
+    width: 80%;
+    border-radius: 30px;
+    margin-top: 0px;
+    font-size: 18px;
+    margin-bottom: 0px;
+    padding: 21px 22px;
+    transition: transform 0.3s ease-out;
+    box-shadow: 0 0 20px rgba(5, 214, 221, 0.8);
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid  rgb(255, 255, 255);
+}
+
+.form_input:focus{
+    background-color: transparent;
+    border: 1px solid  aqua;
+    outline: none;
+    box-shadow: 0 0 20px rgba(5, 214, 221, 0.9);    
+}
+
+.useless {
+    color: white;
+    font-size: 5.5ch;
+}
+.useless1 {
+    color: white;
+    font-size: 3;
+    margin-top: 7%;
+    border: 20px aqua; /* Обводка кнопки */
+
+}
+
+.useless2 {
+    top: 70%;
+    color: white;
+    font-size: 1ch;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.circle-text {
+    position: absolute;
+    top: 180%;
+    left: 46%;
+    gap: 10px; /* Расстояние между дочерними элементами */
+    padding: 0px; /* Внутренний отступ вокруг текста */
+    margin: 0;
+    width: 100px; /* Ширина круга текста */
+    height: 100px; /* Высота круга текста */
+    transform: translate(-50%, 50%);
+    animation: spin 5s linear infinite; /* Анимация вращения */
+    z-index: 0; /* Текст будет ниже кнопки */
+}
+
+
+.circle-text span {
+    color: aqua;
+    position: absolute;
+    width: 50%; /* Ширина каждого элемента */
+    height: 50%; /* Высота каждого элемента */
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    padding: 0; /* Убираем внутренний отступ */
+    margin: 0;
+    font-size: 2rem; /* Размер шрифта */
+    align-items: center;
+    transform-origin: 60% 150%; /* Точка вращения */
+}
+
+.container {
+    display: grid; /* Используем сетку для расположения контейнеров */
+    grid-template-columns: repeat(4, 1fr); /* Две колонки одинаковой ширины */
+    gap: 20px; /* Промежутки между контейнерами */
+    position: absolute;
+    height: 280px;
+    max-width: 1500px;
+    width: 100%;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.box {
+    position: relative;
+    background-color: rgba(17, 148, 180, 0.8);/* Цвет фона контейнера */
+    border: transparent; /* Рамка контейнера */
+    border-radius: 26px; /* Закругленные углы */
+    padding: 20px; /* Внутренние отступы */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.box img {
+    position: absolute;
+    top: -35px;
+    left: 145px;
+    border: 1.3px solid aqua;
+    border-radius: 50%;
+    max-width: 100%; /* Изображение не выходит за пределы контейнера */
+    height: auto; /* Сохраняем пропорции изображения */
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5), 
+    0 0 25px rgba(0, 255, 255, 0.5), 
+    0 0 5px rgba(0, 255, 255, 0.5);
+}
+
+.aqua {
+    color: aqua;
+}
+
+.article {
+    position: relative;
+    min-height: 100vh;
+    height: 100vh;
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+.article1{
+    position: relative;
+    min-height: 100vh;
+    height: 140vh;
+    max-width: 100vw;
+    overflow: hidden;
+    
+}
+
+
+.fon {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background: url('image/gr.gif') no-repeat center center fixed; /* Путь к вашему GIF */
+    background-size: cover; /* Заполнение фона */
+}
+
+
+.insideformation {
+    display: flex;
+    position: relative;
+    top: 20%;
+    left: 20%;
+    min-width: 1600px;
+    width: 1000px;
+    max-width: 1600px;
+    height: 900px;
+    opacity: 0.8;
+}
+
+.midimage {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    opacity: 0.79;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    position: relative;
+    padding-left: 30px;
+    margin: 10px 0;
+}
+
+li::before {
+    content: ''; /* Пустое содержание для псевдоэлемента */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0; /* Позиция слева */
+    top: 50%; /* Центрируем по вертикали */
+    transform: translateY(-50%); /* Центрируем по вертикали */
+    width: 10px; /* Ширина маркера */
+    height: 10px; /* Высота маркера */
+    background-color: rgba(0, 207, 243, 0.8); /* Цвет маркера с прозрачностью */
+    border-radius: 50%; /* Делаем маркер круглым */
+    filter: blur(4px); /* Размытие маркера */
+}
+
+.list {
+    position: absolute;
+    color: white;
+    text-align: left;
+    top: 70%;
+    left: 10%;
+    font-size: 2.1rem;
+}
+.list1 {
+    position: absolute;
+    color: white;
+    text-align: left;
+    top: 40%;
+    left: 10%;
+    font-size: 2.1rem;
+}
+
+.list2 {
+    position: absolute;
+    color: white;
+    text-align: left;
+    top: 40%;
+    right: 10%;
+    font-size: 2.1rem;
+}
+
+.list3 {
+    position: absolute;
+    color: white;
+    text-align: left;
+    top: 70%;
+    right: 12%;
+    font-size: 2.1rem;
+}
+
+.fon1 {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    top: 15%;
+    perspective: 1000px;
+    background-color: transparent;
+    background: url('image/1.gif') no-repeat center center fixed; /* Путь к вашему GIF */
+    background-size: cover; /* Заполнение фона */
+    animation: rotate 5s infinite linear; /* Анимация вращения */
+    transform-style: preserve-3d; 
+    animation-delay: 10s;
+}
+
+.fon2 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.fon3 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(30); 
+    filter: brightness(60%);
+    background-size: cover; /* Заполнение фона */    
+}
+
+.fon4 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.blur {
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px) saturate(110%) contrast(150%); 
+    height: 100vh;
+    width: 100%;
+}
+
+.footerblur {
+    position: absolute;
+    top: 93%;
+    left: 0%;
+    height: 100px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.0);
+    backdrop-filter: blur(3px) saturate(110%) contrast(150%); 
+    filter: brightness(10%);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1), 
+    0 0 25px rgba(0, 0, 0, 0.1), 
+    0 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 0;
+}
+
+.footerblur1 {
+    position: absolute;
+    top: 73.37%;
+    left: 0%;
+    height: 300px;
+    width: 100%;
+    opacity: 0.3;
+    filter: brightness(95%);
+    opacity: 0.2;
+    background: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(6px) saturate(110%) contrast(150%); 
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    z-index: 0;
+}
+
+.ht{
+    position: absolute;
+    z-index: 2;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 6ch;
+    top: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.normaltext {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.button4 {
+    top: 110%;
+    left: 50%;
+    justify-content: center;
+    width: 250px; /* Ширина кнопки 100% */
+    padding: 15px 30px;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 255, 255, 1); /* Цвет кнопки */
+    border: 2px solid aqua; /* Обводка кнопки */
+    border-radius: 35px; /* Круглая форма */
+    cursor: pointer; 
+    color: rgb(0, 0, 0); /* Цвет текста */
+    font-size: 16px; /* Размер шрифта */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button4:hover {
+    background-color: aqua;
+    color: black;
+    box-shadow: 0 0 20px rgba(0, 123, 255, 1);
+}
+
+.normaltext1 {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    color: white;
+    text-align: left;
+    font-size: 25px;
+}
+
+.normaltext2 {
+    position: absolute;
+    left: 52%;
+    top: 70%;
+    color: white;
+    text-align: right;
+    font-size: 25px;
+}
+
+
+.line {
+    position: absolute;
+    top: 57%;
+    left: 27%;
+    border-bottom: 2px solid rgb(0, 255, 255);
+    margin-top: 5px;
+    width: 6%;
+    z-index: 3;
+}
+
+.line1{
+    position: absolute;
+    top: 79%;
+    left: 60%;
+    border-bottom: 2px solid rgb(0, 255, 255);
+    margin-top: 5px;
+    width: 6%;
+    z-index: 3;
+}
+
+.list0 {
+    position: absolute;
+    color: white;
+    text-align: left;
+    top: 60%;
+    left: 10%;
+    font-size: 2.1rem;
+    z-index: 2;
+}
+
+.list0::before {
+    content: ''; /* Пустое содержание для псевдоэлемента */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 435%; /* Позиция слева */
+    top: 20%; /* Центрируем по вертикали */
+    transform: translateY(-50%); /* Центрируем по вертикали */
+    width: 10px; /* Ширина маркера */
+    height: 10px; /* Высота маркера */
+    background-color: rgba(0, 255, 255, 1); /* Цвет маркера с прозрачностью */
+    border-radius: 50%; /* Делаем маркер круглым */
+    filter: blur(1.5px); /* Размытие маркера */
+    z-index: 2;
+}
+
+.list1 {
+    position: absolute;
+    text-align: left;
+    color: transparent;
+    background-color: transparent;
+    top: 20%;
+    left: 10%;
+    font-size: 2.1rem;
+    z-index: 2;
+}
+
+.list1::before {
+    content: ''; /* Пустое содержание для псевдоэлемента */
+    position: absolute; /* Абсолютное позиционирование */
+    left: -23%; /* Позиция слева */
+    top: -27%; /* Центрируем по вертикали */
+    transform: translateY(-50%); /* Центрируем по вертикали */
+    width: 10px; /* Ширина маркера */
+    height: 10px; /* Высота маркера */
+    background-color: rgba(0, 255, 255, 1); /* Цвет маркера с прозрачностью */
+    border-radius: 50%; /* Делаем маркер круглым */
+    filter: blur(1.5px); /* Размытие маркера */
+    z-index: 2;
+}
+
+.contimage {
+    display: grid; /* Включаем CSS Grid */
+    grid-template-columns: repeat(2, 1fr); /* Две колонки для горизонтальных изображений и одна для вертикального */
+    grid-template-rows: 1fr;
+    gap: 10px; /* Промежутки между контейнерами */
+    position: absolute;
+    max-height: 400px;
+    height: 180px;
+    max-width: 500px;
+    width: 800px;
+    top: 38%;
+    left: 8%;
+    z-index: 0;
+}
+
+.contimage1 {
+    display: grid; /* Включаем CSS Grid */
+    grid-template-columns: repeat(2, 1fr); /* Две колонки для горизонтальных изображений и одна для вертикального */
+    grid-template-rows: 1fr;
+    gap: 10px; /* Промежутки между контейнерами */
+    position: absolute;
+    max-height: 400px;
+    height: 180px;
+    max-width: 500px;
+    width: 800px;
+    top: 50%;
+    left: 65%;
+    z-index: 1;
+}
+
+.imageee {
+    background-size: cover;
+    width: 100%; /* Ширина изображений */
+    height: 100%; /* Автоматическая высота для сохранения пропорций */
+    border-radius: 30px;
+
+}
+
+.imageee:nth-child(3) {
+    grid-column: span 2; /* Занимает две строки */
+}
+
+.container1 {
+    display: grid; /* Используем сетку для расположения контейнеров */
+    grid-template-columns: repeat(3, 1fr); /* Две колонки одинаковой ширины */
+    gap: 20px; /* Промежутки между контейнерами */
+    position: absolute;
+    height: 580px;
+    max-width: 1700px;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box1 {
+    position: relative;
+    height: 680px;
+    background-color: rgba(13, 36, 44, 0.9);/* Цвет фона контейнера */
+    border: transparent; /* Рамка контейнера */
+    border-radius: 26px; /* Закругленные углы */
+    padding: 20px; /* Внутренние отступы */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.box1 img {
+    position: absolute;
+    top: 7%;
+    left: 20%;
+    max-width: 100%; /* Изображение не выходит за пределы контейнера */
+    height: 300px; /* Сохраняем пропорции изображения */
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5), 
+    0 0 25px rgba(0, 255, 255, 0.5), 
+    0 0 5px rgba(0, 255, 255, 0.5);
+}
+
+.maintext {
+    position: relative;
+    top: 1%;
+    left: 25%;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: white;
+}
+
+.abscontainer {
+    display: flex; 
+    position: absolute;
+    height: 1400px;
+    background:linear-gradient(to right, rgb(51, 44, 153), rgb(120, 180, 214),rgb(51, 44, 153));
+    max-width: 2100px;
+    width: 100%;
+    border-radius: 20px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container2 {
+    top: -80%;
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.gallery {
+    display: flex;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    transition: scroll-left 0.3s ease;
+    padding: 10px 0;
+}
+
+.buttonnetflix {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    border-radius: 50%;
+    margin: -173px 100px;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+}
+
+.margin {
+    margin: 10px -150px;
+    cursor: pointer;
+}
+
+.margin1 {
+    margin: 142px;
+}
+
+.imageee1 {
+    width: 550px; /* Ширина миниатюры */
+    height: 725px; /* Высота миниатюры */
+    margin: 0 10px;
+    object-fit: cover;
+    background-size: cover;
+    scroll-snap-align: start;
+    transition: transform 0.1s;
+}
+
+.thumbnail-container {
+    position: relative;
+    margin: 0 10px;
+    text-align: center; /* Центрируем текст */
+}
+
+figcaption {
+    margin-top: 5px; /* Отступ сверху */
+    font-size: 30px; /* Размер шрифта */
+    color: #333; /* Цвет текста */
+}
+
+.formmidletext {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    top: 50%;
+    z-index: 1;
+}
+
+.normaltext3 {
+    display: flex;
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    top: 52%;
+    left: 37%;
+}
+
+.center {
+    display: flex;
+    position: relative;
+    top: 70%;
+    left: 50;
+    transform: translate(-50%-50%);
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+.center1 {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    left: 50;
+    font-size: 45px;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+.line2 {
+    position: absolute;
+    top: 87%;
+    left: 21%;
+    border-bottom: 1px solid rgb(0, 255, 255);
+    margin-top: 5px;
+    width: 58%;
+    z-index: 3;
+}
+
+.line3 {
+    position: absolute;
+    top: 70%;
+    left: 21%;
+    border-bottom: 1px solid rgb(0, 255, 255);
+    margin-top: 5px;
+    width: 58%;
+    z-index: 3;
+}
+
+.holow {
+    display: flex;
+    position: absolute;
+    top: 85%;
+    left: 18.5%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    color: aqua;
+    background-color: transparent;
+    margin-top: 5px;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    text-indent: -130%;
+    border-radius: 50px;
+    border: 2px solid aqua;
+    box-shadow: 0 0 40px rgb(4, 101, 228);
+    z-index: 3;
+    transition: background-color 0.3s, color 0.3s;
+}
+.holow:hover
+{
+    background-color: rgba(0, 255, 255, 0.7);
+    color: white;
+    box-shadow: 0 0 30px rgb(13, 112, 204);
+    transition: background-color 0.1s, color 0.1s;
+}
+.holow:active {
+    background-color: rgba(0, 255, 255, 0.8);
+    box-shadow: 0 0 35px rgb(10, 117, 216);
+}
+
+.holow1 {
+    display: flex;
+    position: absolute;
+    top: 85%;
+    left: 79.5%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    color: aqua;
+    background-color: transparent;
+    margin-top: 5px;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    text-indent: 50%;
+    border-radius: 50px;
+    border: 2px solid aqua;
+    box-shadow: 0 0 40px rgb(4, 101, 228);
+    z-index: 3;
+    transition: background-color 0.3s, color 0.3s;
+}
+.holow1:hover
+{
+    background-color: rgba(0, 255, 255, 0.7);
+    color: white;
+    box-shadow: 0 0 30px rgb(13, 112, 204);
+    transition: background-color 0.1s, color 0.1s;
+}
+.holow1:active {
+    background-color: rgba(0, 255, 255, 0.8);
+    box-shadow: 0 0 35px rgb(10, 117, 216);
+}
+
+.blurton {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(4px) saturate(150%) contrast(550%); 
+    filter: brightness(50%);
+}
+
+.absform {
+    position: absolute;
+    display: flex;
+    width: 50%;
+    height: auto;
+    height: 6%;
+    top: 45%;
+    left: 25%;
+    margin-left: 50px;
+}
+
+.form_input1 {
+    box-sizing: border-box;
+    width: 80%;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    margin-bottom: 0px;
+    padding: 21px 22px;
+    transition: transform 0.3s ease-out;
+    box-shadow: 0 0 5px rgba(5, 214, 221, 0.8);
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid  rgb(255, 255, 255);
+}
+
+.form_input1:focus{
+    background-color: transparent;
+    border: 1px solid  aqua;
+    outline: none;
+    box-shadow: 0 0 20px rgba(5, 214, 221, 0.9);    
+}
+
+.follower {
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    width: 400px; /* Ширина изображения */
+    height: 400px; /* Высота изображения */
+    pointer-events: none; /* Чтобы курсор не взаимодействовал с изображением */
+    transition: transform 0.1s ease; /* Плавный переход для шевеления */
+}
+
+.follower1 {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    width: 400px; /* Ширина изображения */
+    height: 400px; /* Высота изображения */
+    background-size: cover;
+    object-fit: cover;
+    transition: opacity 0.1s ease; /* Плавный переход для появления */
+    z-index: 1;
+}
+
+.shadow {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    width: 400px; /* Ширина изображения */
+    height: 400px; /* Высота изображения */
+    opacity: 0.5; /* Изначально невидима */
+    background-size: cover;
+    object-fit: cover;
+    pointer-events: none; /* Чтобы курсор не взаимодействовал с изображением */
+    transition: transform 0.1s ease; /* Плавный переход для шевеления */
+    z-index: 0;
+}
+
+.shadow1 {
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    width: 400px; /* Ширина изображения */
+    height: 400px; /* Высота изображения */
+    opacity: 0.8; /* Изначально невидима */
+    background-size: cover;
+    object-fit: cover;
+    transition: transform 0.1s ease; /* Плавный переход для шевеления */
+    z-index: 0;
+}
+
+.barlow {
+    font-family: "Barlow", sans-serif;
+    font-style: normal; 
+    font-weight: 100;
+}
+
+.map {
+    position: relative;
+    top: 15%;
+    height: 900px; /* Высота карты */
+    width: 100%; /* Ширина карты */
+    transition: transform 0.3s ease; /* Плавный переход при изменении масштаба */
+    z-index: 5;
+}
+
+
+@keyframes rotate {
+    from {
+        transform: rotateY(0deg); /* Начальное положение */
+    }
+    to {
+        transform: rotateX(360deg); /* Конечное положение */
+    }
+}
+
+
+@keyframes spin {
+    from {
+        transform: rotateX(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
