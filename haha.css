@@ -784,7 +784,6 @@ li::before {
 .gallery {
     display: flex;
     overflow: hidden;
-    scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     transition: scroll-left 0.3s ease;
     padding: 10px 0;
