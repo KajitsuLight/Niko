@@ -3,7 +3,7 @@ const netflix = document.getElementById('netflix');
 const netflixprev = document.getElementById('netflixprev');
 
 let scrollAmount = 0;
-const scrollStep = 160; // Шаг прокрутки
+const scrollStep = 360; // Шаг прокрутки
 const totalWidth = gallery.scrollWidth; // Общая ширина галереи
 const visibleWidth = gallery.clientWidth; 
 
