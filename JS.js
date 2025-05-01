@@ -4,8 +4,6 @@ const netflixprev = document.getElementById('netflixprev');
 
 let scrollAmount = 0;
 const scrollStep = 560; // Шаг прокрутки
-const totalWidth = gallery.scrollWidth; // Общая ширина галереи
-const visibleWidth = gallery.clientWidth; 
 
 const scrollToPosition = (amount) => {
     gallery.scrollTo({
